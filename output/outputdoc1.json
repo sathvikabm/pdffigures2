@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 2. Current ripple at high data acquisition rate.",
+  "captionBoundary": {
+    "x1": 217.33999633789062,
+    "x2": 392.7300720214844,
+    "y1": 373.2484436035156,
+    "y2": 378.67999267578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 174.72,
+    "x2": 436.32,
+    "y1": 134.88,
+    "y2": 361.44
+  },
+  "renderDpi": 150,
+  "renderURL": "/Users/sathvikabhagyalakshmimahesh/Desktop/pdffigures2/outputdoc1-Figure2-1.png"
+}, {
+  "caption": "Figure 3. Temperature evolution at the cell wall.",
+  "captionBoundary": {
+    "x1": 224.58999633789062,
+    "x2": 385.4847106933594,
+    "y1": 664.0584106445312,
+    "y2": 669.489990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 511.2,
+    "y1": 423.84,
+    "y2": 652.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "/Users/sathvikabhagyalakshmimahesh/Desktop/pdffigures2/outputdoc1-Figure3-1.png"
+}, {
+  "caption": "Table 1. Summary of experimental results. Unless otherwise specified, anodes are of stainless steel coated with platinum.",
+  "captionBoundary": {
+    "x1": 108.31999969482422,
+    "x2": 501.74725341796875,
+    "y1": 407.8184509277344,
+    "y2": 413.25
+  },
+  "figType": "Table",
+  "imageText": ["L122(120–160)", "Pd+Doping", "H2O", "24", "Yes", "Yes", "L122(120–160)", "Pd+Doping", "H2O", "53", "Yes", "Yes", "L122(160–200)", "Pd+Doping", "H2O", "53", "Yes", "Yes", "L122(160–200)", "Pd+Doping", "H2O", "53", "Charge", "107", "mA", "Yes", "Yes", "L122(236–272)", "Pd+Doping", "H2O", "53", "No", "No", "L122(308–366)", "Pd+Doping", "H2O", "53", "Yes", "No", "L137(100–140)", "Pd+Doping", "H2O", "53", "No", "No", "137(180–216)", "Pd+Doping", "H2O", "107", "Anode", "Pt", "No", "No", "L137(60–100)", "Pd+Doping", "H2O", "107", "Anode", "Pt", "Yes", "No", "L137(60–100)", "Pd+Doping", "H2O", "107", "Anode", "Pt", "Yes", "Yes", "L137(300–340)RAEM", "Pd+Doping", "H2O", "107", "Anode", "Pt", "Not", "measured", "YES", "L137(380–420)RAEM", "Pd+Doping", "H2O", "107", "Anode", "Pt", "Yes", "No", "Electrode", "Lot", "Electrolyte", "Current", "mA", "Notes", "RF", "Heat", "Steel", "NA", "H2O", "53", "NA", "No", "No", "Steel", "NA", "H2O", "53", "NA", "No", "No", "L124(10–50)", "Pd90/Rh10", "(Al)", "H2O", "No", "No", "L127(20–130)", "H.M.", "+", "Pt", "H2O", "No", "No", "L128(105–145)", "H.M.", "+", "Pt", "H2O", "No", "No", "L128(145–185)", "H.M.", "+", "Pt", "H2O", "No", "No", "L58(165–200)", "Johnson", "Matthey", "MM29560", "H2O", "No", "No", "L93(110–150)", "Alfa", "Aesar", "307622", "H2O", "No", "No", "L95(50–90)", "Alfa", "Aesar", "307622", "H2O", "No", "No", "L121(90–130)", "Pd90/Rh10", "H2O", "No", "No", "L125(170–206)", "H.M.", "2108539", "+", "Pt", "H2O", "No", "No"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 529.4399999999999,
+    "y1": 420.96,
+    "y2": 672.0
+  },
+  "renderDpi": 150,
+  "renderURL": "/Users/sathvikabhagyalakshmimahesh/Desktop/pdffigures2/outputdoc1-Table1-1.png"
+}, {
+  "caption": "Figure 1. Current ripple during excess power at low data acquisition rate.",
+  "captionBoundary": {
+    "x1": 184.9499969482422,
+    "x2": 425.1142578125,
+    "y1": 332.84844970703125,
+    "y2": 338.2799987792969
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 204.95999999999998,
+    "x2": 405.12,
+    "y1": 134.88,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "/Users/sathvikabhagyalakshmimahesh/Desktop/pdffigures2/outputdoc1-Figure1-1.png"
+}, {
+  "caption": "Figure 4. (a) Spectral RF signal for active sample when electrolyte temperature increases. (b) Typical Background RF signal for inactive samples.",
+  "captionBoundary": {
+    "x1": 70.47000122070312,
+    "x2": 539.5975952148438,
+    "y1": 318.7584533691406,
+    "y2": 324.19000244140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 519.36,
+    "y1": 134.88,
+    "y2": 309.12
+  },
+  "renderDpi": 150,
+  "renderURL": "/Users/sathvikabhagyalakshmimahesh/Desktop/pdffigures2/outputdoc1-Figure4-1.png"
+}, {
+  "caption": "Figure 5. Input and output power evolution during excess power measured by using a Peltier calorimeter. Spikes in input power starting at \"50,000 s and increasing in amplitude and frequency at \"65,000 s were due to voltage fluctuation. This effect is not reflecting in the output power because of the calorimeter time constant, which is much larger than the fluctuation frequency.",
+  "captionBoundary": {
+    "x1": 70.47000122070312,
+    "x2": 539.603271484375,
+    "y1": 644.12841796875,
+    "y2": 669.489990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 124.8,
+    "x2": 485.28,
+    "y1": 408.0,
+    "y2": 634.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "/Users/sathvikabhagyalakshmimahesh/Desktop/pdffigures2/outputdoc1-Figure5-1.png"
+}]

@@ -1,0 +1,80 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1607525187608
+Build-Jdk: 11.0.9.1
+Built-By: stain
+Bundle-Description: JPEG2000 support for Java Advanced Imaging Image I
+ /O Tools API core.    This module is licensed under the [JJ2000 licen
+ se](LICENSE.txt) and    is therefore NOT compatible with the GPL 3 li
+ cense. It should be    compatible with the LGPL 2.1 license.
+Bundle-DocURL: https://github.com/jai-imageio/
+Bundle-License: LICENSE-JJ2000.txt, LICENSE-Sun.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: JPEG2000 support for Java Advanced Imaging Image I/O Tool
+ s API
+Bundle-SymbolicName: jai-imageio-jpeg2000
+Bundle-Vendor: jai-imageio GitHub group
+Bundle-Version: 1.4.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.github.jaiimageio.jpeg2000;version="1.4.0";uses:="
+ javax.imageio",jj2000.j2k;version="1.4.0",jj2000.j2k.codestream;versi
+ on="1.4.0";uses:="jj2000.j2k.wavelet",jj2000.j2k.codestream.writer;ve
+ rsion="1.4.0";uses:="jj2000.j2k.codestream,jj2000.j2k.entropy,jj2000.
+ j2k.entropy.encoder,jj2000.j2k.image,jj2000.j2k.io,jj2000.j2k.roi.enc
+ oder,jj2000.j2k.wavelet.analysis",jj2000.j2k.codestream.reader;versio
+ n="1.4.0";uses:="jj2000.j2k.codestream,jj2000.j2k.decoder,jj2000.j2k.
+ entropy,jj2000.j2k.entropy.decoder,jj2000.j2k.io,jj2000.j2k.quantizat
+ ion.dequantizer,jj2000.j2k.roi,jj2000.j2k.wavelet.synthesis",jj2000.j
+ 2k.roi;version="1.4.0";uses:="jj2000.j2k,jj2000.j2k.decoder,jj2000.j2
+ k.image,jj2000.j2k.quantization.dequantizer,jj2000.j2k.wavelet.synthe
+ sis",jj2000.j2k.roi.encoder;version="1.4.0";uses:="jj2000.j2k.image,j
+ j2000.j2k.image.input,jj2000.j2k.quantization.quantizer,jj2000.j2k.wa
+ velet,jj2000.j2k.wavelet.analysis",jj2000.j2k.entropy;version="1.4.0"
+ ;uses:="jj2000.j2k,jj2000.j2k.codestream,jj2000.j2k.image",jj2000.j2k
+ .entropy.encoder;version="1.4.0";uses:="jj2000.j2k,jj2000.j2k.codestr
+ eam.writer,jj2000.j2k.entropy,jj2000.j2k.image,jj2000.j2k.quantizatio
+ n.quantizer,jj2000.j2k.wavelet.analysis",jj2000.j2k.entropy.decoder;v
+ ersion="1.4.0";uses:="jj2000.j2k.decoder,jj2000.j2k.entropy,jj2000.j2
+ k.image,jj2000.j2k.quantization.dequantizer,jj2000.j2k.wavelet.synthe
+ sis",jj2000.j2k.wavelet;version="1.4.0";uses:="jj2000.j2k.image",jj20
+ 00.j2k.wavelet.synthesis;version="1.4.0";uses:="jj2000.j2k,jj2000.j2k
+ .codestream,jj2000.j2k.decoder,jj2000.j2k.image,jj2000.j2k.wavelet",j
+ j2000.j2k.wavelet.analysis;version="1.4.0";uses:="jj2000.j2k,jj2000.j
+ 2k.image,jj2000.j2k.quantization,jj2000.j2k.wavelet",jj2000.j2k.image
+ .invcomptransf;version="1.4.0";uses:="jj2000.j2k.decoder,jj2000.j2k.i
+ mage",jj2000.j2k.image;version="1.4.0";uses:="jj2000.j2k",jj2000.j2k.
+ image.forwcomptransf;version="1.4.0";uses:="jj2000.j2k.image,jj2000.j
+ 2k.wavelet,jj2000.j2k.wavelet.analysis",jj2000.j2k.image.input;versio
+ n="1.4.0";uses:="jj2000.j2k.image",jj2000.j2k.decoder;version="1.4.0"
+ ;uses:="jj2000.j2k,jj2000.j2k.entropy,jj2000.j2k.image,jj2000.j2k.qua
+ ntization,jj2000.j2k.roi,jj2000.j2k.wavelet.synthesis",jj2000.j2k.fil
+ eformat.writer;version="1.4.0";uses:="javax.imageio.stream,jj2000.j2k
+ .fileformat",jj2000.j2k.fileformat;version="1.4.0",jj2000.j2k.filefor
+ mat.reader;version="1.4.0";uses:="jj2000.j2k.fileformat,jj2000.j2k.io
+ ",jj2000.j2k.quantization.quantizer;version="1.4.0";uses:="jj2000.j2k
+ .image,jj2000.j2k.quantization,jj2000.j2k.wavelet.analysis",jj2000.j2
+ k.quantization;version="1.4.0";uses:="jj2000.j2k",jj2000.j2k.quantiza
+ tion.dequantizer;version="1.4.0";uses:="jj2000.j2k.decoder,jj2000.j2k
+ .image,jj2000.j2k.wavelet.synthesis",jj2000.j2k.util;version="1.4.0";
+ uses:="jj2000.j2k.io",jj2000.j2k.io;version="1.4.0"
+Extension-Name: com.github.jai-imageio-jai-imageio-jpeg2000
+Implementation-Title: JPEG2000 support for Java Advanced Imaging Image
+  I/O Tools API
+Implementation-Vendor: https://github.com/jai-imageio/ jai-imageio Git
+ Hub group
+Implementation-Version: 1.4.0
+Import-Package: com.github.jaiimageio.impl.common,com.github.jaiimagei
+ o.jpeg2000;version="[1.4,2)",javax.imageio,javax.imageio.metadata,jav
+ ax.imageio.spi,javax.imageio.stream,jj2000.j2k.codestream;version="[1
+ .4,2)",jj2000.j2k.decoder;version="[1.4,2)",jj2000.j2k.entropy.decode
+ r;version="[1.4,2)",jj2000.j2k.fileformat;version="[1.4,2)",jj2000.j2
+ k.image;version="[1.4,2)",jj2000.j2k.image.input;version="[1.4,2)",jj
+ 2000.j2k.image.invcomptransf;version="[1.4,2)",jj2000.j2k.io;version=
+ "[1.4,2)",jj2000.j2k.quantization.dequantizer;version="[1.4,2)",jj200
+ 0.j2k.util;version="[1.4,2)",jj2000.j2k.wavelet;version="[1.4,2)",jj2
+ 000.j2k.wavelet.synthesis;version="[1.4,2)",org.w3c.dom
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Specification-Title: Java Advanced Imaging
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Version: 1.1-mr
+Tool: Bnd-3.5.0.201709291849
+url: https://github.com/jai-imageio/jai-imageio-jpeg2000

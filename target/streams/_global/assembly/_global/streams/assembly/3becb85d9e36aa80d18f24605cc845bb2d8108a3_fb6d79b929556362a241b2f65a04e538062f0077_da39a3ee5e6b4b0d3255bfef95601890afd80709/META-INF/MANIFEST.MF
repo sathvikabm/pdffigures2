@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1523411543151
+Build-Jdk: 1.8.0_162
+Built-By: stain
+Bundle-Description: Java Advanced Imaging Image I/O Tools API core, bu
+ t without the classes     involved with javax.media.jai dependencies,
+  JPEG2000 or     codecLibJIIO, meaning that this library can be distr
+ ibuted under the     modified BSD license and should be GPL compatibl
+ e.
+Bundle-DocURL: https://github.com/jai-imageio/
+Bundle-License: LICENSE.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Java Advanced Imaging Image I/O Tools API core (standalon
+ e)
+Bundle-SymbolicName: jai-imageio-core
+Bundle-Vendor: jai-imageio GitHub group
+Bundle-Version: 1.4.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.github.jaiimageio.stream;version="1.4.0";uses:="ja
+ vax.imageio,javax.imageio.stream,org.xml.sax",com.github.jaiimageio.p
+ lugins.tiff;version="1.4.0";uses:="javax.imageio,javax.imageio.metada
+ ta,javax.imageio.stream,org.w3c.dom",com.github.jaiimageio.plugins.pn
+ m;version="1.4.0";uses:="javax.imageio",com.github.jaiimageio.plugins
+ .bmp;version="1.4.0";uses:="javax.imageio"
+Extension-Name: com.github.jai-imageio-jai-imageio-core
+Implementation-Title: Java Advanced Imaging Image I/O Tools API core (
+ standalone)
+Implementation-Vendor: https://github.com/jai-imageio/ jai-imageio Git
+ Hub group
+Implementation-Version: 1.4.0
+Import-Package: com.github.jaiimageio.plugins.pnm;version="[1.4,2)",ja
+ vax.imageio,javax.imageio.event,javax.imageio.metadata,javax.imageio.
+ plugins.jpeg,javax.imageio.spi,javax.imageio.stream,javax.xml.parsers
+ ,org.w3c.dom,org.xml.sax
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Specification-Title: Java Advanced Imaging
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Version: 1.1-mr
+Tool: Bnd-3.3.0.201609221906
+url: https://github.com/jai-imageio/jai-imageio-core
